@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 50px;
+    background:#020617;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.profile-pic{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #38bdf8;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+/* Button */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:#38bdf8;
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+/* Sections */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#38bdf8;
+}
+
+/* Skills */
+.skills-box{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.skills-box div{
+    background:#020617;
+    padding:15px 20px;
+    margin:10px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.skills-box div:hover{
+    background:#38bdf8;
+    color:black;
+}
+
+/* Social */
+.social a{
+    display:inline-block;
+    margin:10px;
+    color:#38bdf8;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social a:hover{
+    color:white;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+    margin-top:20px;
+}
